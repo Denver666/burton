@@ -1,0 +1,18 @@
+div.form-group {
+    width: 500px;
+    padding: 20px;
+}
+
+input {
+    float: right;
+    width: 200px;
+}
+
+textarea {
+    float: right;
+}
+
+.buttons {
+    width: 500px;
+    float: right;
+}

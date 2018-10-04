@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burton Education Formulier</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <form action="https://www.savatarian.com/html5/form.php" method="post">
+        <h3>Voorbeeldformulier</h3>
+        <div class="form-group">
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" name="voornaam">
+        </div>
+        <div class="form-group">
+            <label for="tussenvoegsel">Tussenvoegsel:</label>
+            <input type="text" name="tussenvoegsel">
+        </div>
+        <div class="form-group">
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" name="achternaam">
+        </div>
+        <div class="form-group">
+            Oogkleur
+            <input type="color" name="oogkleur" value="#ff0000">
+        </div>
+        <div class="form-group">
+           Geboortedatum:
+            <input type="date" name="bday">
+        </div>
+        <div class="form-group">
+            <input type="radio" name="geslacht" value="male">Man<br>
+            <input type="radio" name="geslacht" value="female">Vrouw<br>
+        </div>
+        <div class="form-group">
+            Beschrijving
+            <textarea rows="4" cols="30" name="comment" form="beschrijving">
+Geef hier een kleine omschrijving...</textarea><br><br><br>
+        </div>
+        <div class="form-group" id="checkbox">
+            Lekker eten:<br><br>
+            <ul>
+        <li><input type="checkbox" name="food1" value="gehaktballen">Gehaktballen<br></li>
+        <li><input type="checkbox" name="food2" value="patat">Patat<br></li>
+        <li><input type="checkbox" name="food3" value="pizza">Pizza<br></li>
+            </ul>
+        </div>
+        <div class="buttons">
+        <button type="submit" value="verzenden">Verzenden</button>
+        <button type="reset" value="annuleer" onclick="window.location='index.html'">Annuleer</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
